@@ -11,3 +11,6 @@
 ## Recursion with parameters 
 #questions like print 1 to N using head and tail ( Not with Loops )
 
+## Parameterized recursion and functional recursion
+# Parameterized function -> when we actually print something
+# Functional recursion -> when we actuall return something
