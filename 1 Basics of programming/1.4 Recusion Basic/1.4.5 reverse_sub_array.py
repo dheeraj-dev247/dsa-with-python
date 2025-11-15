@@ -1,7 +1,7 @@
 def rev_sub_array_using_loop(left,right,nums):
-    print(nums)
+    left -= 1
+    right -=1
     while left < right:
-        print('i am inside')
         nums[left],nums[right] = nums[right],nums[left]
         left +=1
         right -=1
