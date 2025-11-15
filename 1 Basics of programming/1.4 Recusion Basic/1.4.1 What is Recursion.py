@@ -8,3 +8,6 @@
 # Try making Recusion tree for better understanding.
 
 
+## Recursion with parameters 
+#questions like print 1 to N using head and tail ( Not with Loops )
+
