@@ -12,4 +12,15 @@ print(rev_sub_array_using_loop(2,4, [1, 2, 3, 4, 5, 6, 7]))
 
 
 def rev_sub_array_using_recursion(left,right,nums):
-    pass
+    left -=1
+    right -=1
+    #Base condition
+    if left > right:
+        return nums
+    while left < right: 
+        nums[left],nums[right] = nums[right],nums[left]
+        left += 1
+        right -= 1
+    return rev_sub_array_using_recursion(left+1,right-1,nums)
+
+print(rev_sub_array_using_recursion(2,4,[1,2,3,4,5,6,7]))
