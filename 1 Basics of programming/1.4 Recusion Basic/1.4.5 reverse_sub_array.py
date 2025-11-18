@@ -7,7 +7,7 @@ def rev_sub_array_using_loop(left,right,nums):
         right -=1
     return nums
 
-print(rev_sub_array_using_loop(2,4, [1, 2, 3, 4, 5, 6, 7])) 
+# print(rev_sub_array_using_loop(2,4, [1, 2, 3, 4, 5, 6, 7])) 
 
 
 ## Solution on the GFG
@@ -18,6 +18,6 @@ class Solution:
 		
 	def helper_func(self,arr,l,r):
 	    if l >= r:
-	        return 
+	        return
 	    arr[l],arr[r] = arr[r],arr[l]
-	    self.helper_func(arr,l+1,r-1)
+		self.helper_func(arr,l+1,r-1)
