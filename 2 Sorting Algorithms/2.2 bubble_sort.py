@@ -1,3 +1,11 @@
+# Question Link:
+# https://www.geeksforgeeks.org/problems/bubble-sort/1
+
+
+# Refer to the link below for detailed understanding:
+# https://codeanddebug.in/blog/bubble-sort-algorithm-in-python/
+
+
 def bubble_sort(nums):
     n = len(nums)
     for i in range(n - 2, -1, -1):
